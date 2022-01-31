@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 80%;
+    color: #021732;
+    background-color: white;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    position: fixed;
+    left: 10%;
+    top: 0vh;
+    z-index: 10;
+}
+
+header h1, 
+header img {
+    padding-right: 1vw;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.container {
+    width: 70%;
+    margin: 15vh auto;
+}
+
+
+.card {
+    float: left;
+    width: calc(100% / 3 - 2vw);
+}
+
+.center {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.article {
+    height: 50vh;
+    /* background-image: url(../img/1.webp); */
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+.article:hover .preferiti {
+    color: red;
+}
+
+#img1 {
+    background-image: url(../img/1.webp);
+}
+
+#img1:hover {
+    cursor: pointer;
+    background-image: url(../img/1b.webp);
+}
+
+#img2 {
+    background-image: url(../img/2.webp);
+}
+
+#img2:hover {
+    cursor: pointer;
+    background-image: url(../img/2b.webp);
+}
+
+#img3 {
+    background-image: url(../img/3.webp);
+}
+
+#img3:hover {
+    cursor: pointer;
+    background-image: url(../img/3b.webp);
+}
+
+#img4 {
+    background-image: url(../img/4.webp);
+}
+
+#img4:hover {
+    cursor: pointer;
+    background-image: url(../img/4b.webp);
+}
+
+#img5 {
+    background-image: url(../img/5.webp);
+}
+
+#img5:hover {
+    cursor: pointer;
+    background-image: url(../img/5b.webp);
+}
+
+#img6 {
+    background-image: url(../img/6.webp);
+}
+
+#img6:hover {
+    cursor: pointer;
+    background-image: url(../img/6b.webp);
+}
+
+.infos {
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    left: 0vw;
+    bottom: 2vh;
+}
+
+.infos .inline-block {
+    display: inline-block;
+}
+
+.discount {
+    background-color: #eb0239;
+    font-size: 1vh;
+    padding: 0.5vh;
+    margin-right: 0.5vh;
+}
+
+.type-dress {
+    background-color: #00875a;
+    font-size: 1vh;
+    padding: 0.5vh;
+}
+
+.preferiti {
+    background-color: white;
+    font-size: 2vh;
+    padding: 1vh 1vw;
+    position: absolute;
+    right: 0vw;
+    top: 1vh;
+}
+
+.definition {
+    text-align: left;
+    margin-bottom: 3vh;
+}
+
+.brand {
+    margin-top: 1vh;
+    font-size: 1vh;
+}
+
+.prodotto {
+    font-size: 1.5vh;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.price { 
+    font-size: 1.5vh;
+}
+
+.price span:first-child {
+    color: red;
+    font-weight: bolder;
+}
+
+.price span:last-child {
+    text-decoration: line-through;
+}
+
