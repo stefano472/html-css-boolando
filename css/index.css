@@ -37,11 +37,10 @@ ul{
 }
 
 li {
-    font-size: 2vh;
+    font-size: 0vh;
     list-style-type: none;
     display: inline-block;
     width: calc(100% / 3 - 2vw);
-    position: relative;
 }
 
 li.center {
@@ -49,7 +48,51 @@ li.center {
     margin-right: 1vw;
 }
 
+article {
+    position: relative;
+}
+
 article img {
+    width: 100%;
+}
+
+article:hover .preferiti {
+    color: red;
+}
+
+article:hover #img1{
+    cursor: pointer;
+    content: url('../img/1b.webp');
+    width: 100%;
+}
+
+article:hover #img2{
+    cursor: pointer;
+    content: url('../img/2b.webp');
+    width: 100%;
+}
+
+article:hover #img3{
+    cursor: pointer;
+    content: url('../img/3b.webp');
+    width: 100%;
+}
+
+article:hover #img4{
+    cursor: pointer;
+    content: url('../img/4b.webp');
+    width: 100%;
+}
+
+article:hover #img5{
+    cursor: pointer;
+    content: url('../img/5b.webp');
+    width: 100%;
+}
+
+article:hover #img6{
+    cursor: pointer;
+    content: url('../img/6b.webp');
     width: 100%;
 }
 
@@ -81,8 +124,36 @@ article img {
 
 .preferiti {
     background-color: white;
+    font-size: 2vh;
     padding: 1vh 1vw;
     position: absolute;
     right: 0vw;
     top: 1vh;
+}
+
+.definition {
+    text-align: left;
+    margin-bottom: 3vh;
+}
+
+.brand {
+    margin-top: 1vh;
+    font-size: 1vh;
+}
+
+.prodotto {
+    font-size: 1.5vh;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.price span:first-child {
+    color: red;
+    font-weight: bolder;
+    font-size: 1.5vh;
+}
+
+.price span:last-child {
+    font-size: 1.5vh;
+    text-decoration: line-through;
 }
