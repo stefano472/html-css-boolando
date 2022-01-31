@@ -48,49 +48,49 @@ li.center {
     margin-right: 1vw;
 }
 
-article {
+.article {
     position: relative;
 }
 
-article img {
+.article img {
     width: 100%;
 }
 
-article:hover .preferiti {
+.article:hover .preferiti {
     color: red;
 }
 
-article:hover #img1{
+.article:hover #img1{
     cursor: pointer;
     content: url('../img/1b.webp');
     width: 100%;
 }
 
-article:hover #img2{
+.article:hover #img2{
     cursor: pointer;
     content: url('../img/2b.webp');
     width: 100%;
 }
 
-article:hover #img3{
+.article:hover #img3{
     cursor: pointer;
     content: url('../img/3b.webp');
     width: 100%;
 }
 
-article:hover #img4{
+.article:hover #img4{
     cursor: pointer;
     content: url('../img/4b.webp');
     width: 100%;
 }
 
-article:hover #img5{
+.article:hover #img5{
     cursor: pointer;
     content: url('../img/5b.webp');
     width: 100%;
 }
 
-article:hover #img6{
+.article:hover #img6{
     cursor: pointer;
     content: url('../img/6b.webp');
     width: 100%;
