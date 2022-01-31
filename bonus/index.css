@@ -30,20 +30,20 @@ header img {
     margin: 15vh auto;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .card {
+    margin: 0 0.5vw 0 0.5vw;
     float: left;
-    width: calc(100% / 3 - 2vw);
-}
-
-.center {
-    margin-left: 1vw;
-    margin-right: 1vw;
+    width: calc((100% / 3) - 1vw);
 }
 
 .article {
-    height: 50vh;
-    /* background-image: url(../img/1.webp); */
+    height: 60vh;
     background-size: cover;
     background-position: center top;
     position: relative;
