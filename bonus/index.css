@@ -60,6 +60,7 @@ header img {
 #img1:hover {
     cursor: pointer;
     background-image: url(../img/1b.webp);
+    transition: 0.3s;
 }
 
 #img2 {
@@ -69,6 +70,7 @@ header img {
 #img2:hover {
     cursor: pointer;
     background-image: url(../img/2b.webp);
+    transition: 0.3s;
 }
 
 #img3 {
@@ -78,6 +80,7 @@ header img {
 #img3:hover {
     cursor: pointer;
     background-image: url(../img/3b.webp);
+    transition: 0.3s;
 }
 
 #img4 {
@@ -87,6 +90,7 @@ header img {
 #img4:hover {
     cursor: pointer;
     background-image: url(../img/4b.webp);
+    transition: 0.3s;
 }
 
 #img5 {
@@ -96,6 +100,7 @@ header img {
 #img5:hover {
     cursor: pointer;
     background-image: url(../img/5b.webp);
+    transition: 0.3s;
 }
 
 #img6 {
@@ -105,6 +110,7 @@ header img {
 #img6:hover {
     cursor: pointer;
     background-image: url(../img/6b.webp);
+    transition: 0.3s;
 }
 
 .infos {
