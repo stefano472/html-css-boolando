@@ -40,6 +40,7 @@ li {
     font-size: 0vh;
     list-style-type: none;
     display: inline-block;
+    vertical-align: top;
     width: calc(100% / 3 - 2vw);
 }
 
